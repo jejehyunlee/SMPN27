@@ -37,7 +37,7 @@
                 <ul class="dropdown-menu">
                   <!-- User image -->
                   <li class="user-header">
-                    <img src="<?php echo $foto; ?>" class="img-circle" alt="User Image">
+                    <img src="<?php echo "foto"; ?>" class="img-circle" alt="User Image">
                     <p>
                       <?php echo $nama; ?>
                       <small><?php echo $level; ?></small>

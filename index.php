@@ -10,7 +10,7 @@
           $iden = mysql_fetch_array(mysql_query("SELECT * FROM rb_users where id_user='$_SESSION[id]'"));
            $nama =  $iden[nama_lengkap];
            $level = 'Administrator';
-           $foto = 'dist/img/user2-160x160.jpg';
+          //  $foto = 'dist/img/user2-160x160.jpg';
       }elseif($_SESSION[level]=='kepala'){
           $iden = mysql_fetch_array(mysql_query("SELECT * FROM rb_users where id_user='$_SESSION[id]'"));
             $gu = mysql_fetch_array(mysql_query("SELECT * FROM rb_guru where nip='$iden[username]'"));
