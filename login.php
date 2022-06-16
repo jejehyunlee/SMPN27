@@ -17,11 +17,13 @@
     <link rel="stylesheet" href="dist/css/AdminLTE.min.css">
     <!-- iCheck -->
     <link rel="stylesheet" href="plugins/iCheck/square/blue.css">
+    <!-- bg IMAGE -->
+    <link rel="stylesheet" href="dist/css/bg_login.css">
   </head>
   <body class="hold-transition login-page">
     <div class="login-box">
       <div class="login-logo">
-        <a href="../../index2.html"><b>SISFO</b> AKADEMIK</a>
+        <a href="http://localhost/siakadV3/index.php"><h1><font color="Yellow"><b>SISFO</b> AKADEMIK</a></font></h1>
       </div><!-- /.login-logo -->
       <div class="login-box-body">
         <p class="login-box-msg">Silahkan Login Pada Form dibawah ini</p>
