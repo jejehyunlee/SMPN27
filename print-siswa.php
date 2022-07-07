@@ -60,8 +60,8 @@ $frt = mysql_fetch_array(mysql_query("SELECT * FROM rb_header_print ORDER BY id_
 <table border=0 width=100%>
   <tr>
     <td width="260" align="left">Orang Tua / Wali</td>
-    <td width="520"align="center">Mengetahui <br> Kepala SMA Negeri 1 Padang</td>
-    <td width="260" align="left">Padang, <?php echo tgl_raport(date("Y-m-d")); ?> <br> Wali Kelas</td>
+    <td width="520"align="center">Mengetahui <br> Kepala SMP Negeri 275 Jakarta</td>
+    <td width="260" align="left">Jakarta, <?php echo tgl_raport(date("Y-m-d")); ?> <br> Wali Kelas</td>
   </tr>
   <tr>
     <td align="left"><br /><br /><br /><br /><br />

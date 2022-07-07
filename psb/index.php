@@ -15,7 +15,7 @@ include "config/class_paging.php";
     <meta name="description" content="">
     <meta name="author" content="">
     <link rel="icon" href="favicon.ico">
-    <title>Sistem Penerimaan Siswa Baru - Dedukasi Edukasi Kualiva (DEK) Padang</title>
+    <title>Sistem Penerimaan Siswa Baru - Dedukasi Edukasi Kualiva (DEK) Jakarta</title>
     <link href="asset/css/bootstrap.min.css" rel="stylesheet">
     <link href="asset/css/style.css" rel="stylesheet">
     <link href="asset/css/datepicker.css" rel="stylesheet">
@@ -89,7 +89,7 @@ include "config/class_paging.php";
             <div class="row">
                     <p class="footer" style="text-align:center">
                       Copyright © <?php echo date('Y'); ?> Sistem Penerimaan Siswa Baru<br>
-                      Develop by : <a href="http://phpmu.com">Robby Prihandaya</a>
+                      <!-- Develop by : <a href="http://phpmu.com">Robby Prihandaya</a> -->
                     </p>
             </div>
         </div>
