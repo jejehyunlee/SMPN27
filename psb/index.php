@@ -42,7 +42,7 @@ include "config/class_paging.php";
 
 <body>
   <div class="container">
-      <img style="width:100%;" src="asset/images/header.png">
+      <img style="width:100%;" src="asset/header.png">
       <nav class="navbar navbar-default">
         <div class="container-fluid">
           <div class="navbar-header">
