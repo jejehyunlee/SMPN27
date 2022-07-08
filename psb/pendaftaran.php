@@ -85,7 +85,7 @@ if ($cek <= 0){
 			$alert = "success";
 		}else{
 			$sekolah = 'SMP';
-			$alert = "danger";
+			$alert = "primary";
 		}
 ?>
 	<div class="alert alert-<?php echo $alert; ?>">
