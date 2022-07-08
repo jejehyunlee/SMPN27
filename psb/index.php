@@ -42,7 +42,7 @@ include "config/class_paging.php";
 
 <body>
   <div class="container">
-      <img style="width:100%;" src="asset/images/header.jpg" />
+      <img style="width:100%;" src="asset/images/header.png">
       <nav class="navbar navbar-default">
         <div class="container-fluid">
           <div class="navbar-header">
@@ -89,7 +89,6 @@ include "config/class_paging.php";
             <div class="row">
                     <p class="footer" style="text-align:center">
                       Copyright © <?php echo date('Y'); ?> Sistem Penerimaan Siswa Baru<br>
-                      <!-- Develop by : <a href="http://phpmu.com">Robby Prihandaya</a> -->
                     </p>
             </div>
         </div>

@@ -14,7 +14,7 @@ $r = mysql_fetch_array(mysql_query("SELECT * FROM rb_psb_aktivasi where id_aktiv
 <table style='border:1px solid #000' border='0' width='100%'>
   <tr>
     <td width=120px><img style='width:90px; margin-top:7px' src='print_raport/logo.png'></td>
-    <td><center>KARTU AKTIVASI PENDAFTARAN<br> PSB YAYASAN PHPMU PADANG</center></td>
+    <td><center>KARTU AKTIVASI PENDAFTARAN<br> SMP NEGERI 275 JAKARTA</center></td>
     <td width=120px></td>
   </tr>
 </table>
@@ -32,7 +32,7 @@ echo "<table width='100%' border='1' id='tablemodul1' class='table daftar'>
 ?>
 <table style='border:1px solid #000; background:#e3e3e3; font-size:11px; ' width='100%'>
 <tr><td><b>Keterangan Pendaftaran :</b></td></tr>
-<tr><td>- Pendaftaran di alamat <span style='color:blue; text-decoration:underline'>http://phpmu.sch.id/psb</span></td></tr>
+<tr><td>- Pendaftaran di alamat <a href="http://localhost/SIAKADV3/psb"> <span style='color:blue; text-decoration:underline'> http://localhost/SIAKADV3/psb</span> </a></td></tr>
 <tr><td>- Saat membuka form pendaftran, masukkan kode aktivasi yang ada pada kartu ini.</td></tr>
 <tr><td>- Kode aktivasi hanya bisa digunakan untuk 1 kali pendaftaran saja.</td></tr>
 <tr><td>- Jika ada kendala lainnya bisa kontak kami di email. <span style='color:blue; text-decoration:underline'><?php echo "$r[status]@phpmu.sch.id"; ?></span></td></tr>

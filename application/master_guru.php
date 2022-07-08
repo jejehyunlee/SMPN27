@@ -4,7 +4,8 @@
                 <div class="box-header">
                   <h3 class="box-title">Semua Data Guru </h3>
                   <?php if($_SESSION[level]!='kepala'){ ?>
-                  <a class='pull-right btn btn-primary btn-sm' href='index.php?view=guru&act=tambahguru'>Tambahkan Data Guru</a>
+                  <a class='pull-right btn btn-success btn-sm' target='_BLANK' href='print_guru.php?'>Print Guru</a>
+                  <a style='margin-right:5px' class='pull-right btn btn-primary btn-sm' href='index.php?view=guru&act=tambahguru'>Tambahkan Data Guru</a>
                   <?php } ?>
                 </div><!-- /.box-header -->
                 <div class="box-body">
