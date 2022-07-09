@@ -11,7 +11,7 @@
         </head>
         <body onload="window.print()">
 
-                <h2><center>Semua Data Guru </center></h2>
+                <h2><center>Laporan Data Guru </center></h2>
                 <table width='100%' id='tablemodul1'>
                 <!-- <table id="example1" class="table table-bordered table-striped"> -->
                     <thead>

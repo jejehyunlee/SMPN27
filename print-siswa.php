@@ -11,7 +11,7 @@ $frt = mysql_fetch_array(mysql_query("SELECT * FROM rb_header_print ORDER BY id_
 </head>
 <body onload="window.print()">
 <?php
-            echo "<h2><center>Semua Data Siswa Kelas $_GET[kelas] <br>Angkatan $_GET[angkatan]</center></h2>
+            echo "<h2><center>Laporan Data Siswa Kelas $_GET[kelas] <br>Angkatan $_GET[angkatan]</center></h2>
                 <table width='100%' id='tablemodul1'>
                     <thead>
                       <tr><th>No</th>
